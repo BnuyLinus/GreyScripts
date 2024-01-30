@@ -1,0 +1,16 @@
+hostComputer = get_shell.host_computer
+
+blockchain = include_lib("/lib/blockchain.so")
+if blockchain == null then
+	exit("Blockchain was not imported.")
+else
+	print(blockchain + " got imported.")
+end if
+user = "[Wallet Username here]"
+password = "[Old Password here]"
+
+purse = blockchain.login_wallet(user,password)
+
+newPassword = "[New Password here]"
+change = purse.reset_password(newPassword)
+print(change)
