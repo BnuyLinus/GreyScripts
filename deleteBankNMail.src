@@ -25,6 +25,6 @@ if mailFile then
 	if typeof(deletionResultMail) == "string" and deletionResultMail.len > 0 then
 		print("ERROR: Could not delete file: " + deletionResultMail)
 	else
-		print("SUCCESS: " + bankFilePath + " was deleted.")
+		print("SUCCESS: " + mailFilePath + " was deleted.")
 	end if
 end if
