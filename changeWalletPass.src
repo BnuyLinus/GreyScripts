@@ -20,4 +20,5 @@ print(change)
 // Wallet is set up on your computer.
 // Your old password is known by you.
 // Usage:
-// Replace fields in brackets with your values, brackets are to be removed when doing so. 
+// Replace fields in brackets with your values, brackets are to be removed when doing so.
+// If successfull, you can use this script to change your password.
