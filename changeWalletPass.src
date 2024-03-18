@@ -14,3 +14,10 @@ purse = blockchain.login_wallet(user,password)
 newPassword = "[New Password here]"
 change = purse.reset_password(newPassword)
 print(change)
+
+// Prerequisites: 
+// blockchain.so is present on your computer.
+// Wallet is set up on your computer.
+// Your old password is known by you.
+// Usage:
+// Replace fields in brackets with your values, brackets are to be removed when doing so. 
